@@ -1,7 +1,7 @@
 <?php
 require 'inc/head.php';
 ?>
-<section class="cookies">
+<section class="cookies container-fluid">
     <div class="row">
         <?php if (isset($_SESSION['cart']) && !empty($_SESSION['cart'])) {
             foreach ($_SESSION['cart'] as $id => $cookie) { ?>
